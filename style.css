@@ -24,10 +24,21 @@ nav{
 }
 /* end nav section  */
 .naike-react-section{
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 .naike-react-section .naike-left-section img{
     width: 80%;
+}
+/* end naike-react-section  */
+.casual-shoes-fullSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.casual-shoes-fullSection .card{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    box-shadow: 8px 16px 16px 8px gray;
 }
 
 
@@ -41,4 +52,22 @@ nav{
     .naike-react-section .naike-left-section img{
         width: 100%;
     }
+    .casual-shoes-fullSection .cArd-section{
+       padding-bottom: 20px;
+    }
+}
+@media  screen and (max-width: 576px){
+    .casual-shoes-fullSection .cArd-section{
+        padding-bottom: 20px;
+     }
+}
+@media  screen and (max-width: 768px){
+    .casual-shoes-fullSection .cArd-section{
+        padding-bottom: 20px;
+     }
+}
+@media  screen and (max-width: 992px){
+    .casual-shoes-fullSection .cArd-section{
+        padding-bottom: 20px;
+     }
 }
