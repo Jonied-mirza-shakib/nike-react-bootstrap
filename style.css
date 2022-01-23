@@ -2,11 +2,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 nav{
-    box-sizing: border-box;
-    box-shadow: 0 16px 0 0 white;
+    background-color: gray;
 }
 .fa-bars{
-    color: white;
+    color: black;
 }
 .navbar .navbar-brand img{
     width: 200px;
@@ -14,7 +13,7 @@ nav{
     border-radius: 10px;
 }
 .nav-item .nav-link{
-    color: black !important;
+    color: white !important;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -23,7 +22,7 @@ nav{
 }
 /* end nav section  */
 .naike-react-section{
-    /* padding-top: 60px; */
+    padding-top: 100px;
 }
 .naike-react-section .naike-left-section img{
     width: 80%;
@@ -51,6 +50,43 @@ nav{
     box-shadow: 8px 16px 16px 8px gray;
 }
 
+.last-section{
+    background-color: antiquewhite;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.last-section .section-one{
+    box-sizing: border-box;
+    box-shadow: 8px 8px 16px 8px gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media  screen and (max-width: 575px) {
     .navbar .navbar-brand img{
@@ -62,19 +98,37 @@ nav{
     .casual-shoes-fullSection .cArd-section{
        padding-bottom: 20px;
     }
+    .formal-shoes .cArd-section{
+        margin-bottom: 20px;
+    }
+    .last-section .section-one img{
+        width: 100%;
+    }
 }
 @media  screen and (max-width: 576px){
     .casual-shoes-fullSection .cArd-section{
         padding-bottom: 20px;
      }
+     .formal-shoes .cArd-section{
+        margin-bottom: 20px;
+    }
+     .last-section .section-one img{
+        width: 60%;
+    }
 }
 @media  screen and (max-width: 768px){
     .casual-shoes-fullSection .cArd-section{
         padding-bottom: 20px;
      }
+     .formal-shoes .cArd-section{
+        margin-bottom: 20px;
+    }
 }
 @media  screen and (max-width: 992px){
     .casual-shoes-fullSection .cArd-section{
         padding-bottom: 20px;
      }
+     .formal-shoes .cArd-section{
+        margin-bottom: 20px;
+    }
 }
