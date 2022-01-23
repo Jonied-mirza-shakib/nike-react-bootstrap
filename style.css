@@ -1,0 +1,44 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    box-shadow: 0 16px 0 0 white;
+}
+.fa-bars{
+    color: white;
+}
+.navbar .navbar-brand img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.nav-item .nav-link{
+    color: black !important;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-item .nav-link:hover{
+    background-color: #CAD5E2 !important;
+}
+/* end nav section  */
+.naike-react-section{
+    padding-top: 60px;
+}
+.naike-react-section .naike-left-section img{
+    width: 80%;
+}
+
+
+
+
+
+@media  screen and (max-width: 575px) {
+    .navbar .navbar-brand img{
+        width: 100%;
+    }
+    .naike-react-section .naike-left-section img{
+        width: 100%;
+    }
+}
